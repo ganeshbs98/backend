@@ -11,7 +11,8 @@ console.log(`evn:${app.get("env")}`)
 const courses=[
     {id:1,name:'java'},
     {id:2,name:'js'},
-    {id:3,name:'python'}
+    // {id:3,name:'python'}
+
 ]
 
 const port=process.env.PORT||8000
